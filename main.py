@@ -1,7 +1,7 @@
 print("Can you beat this Marvel quiz?")
 
 name = input("Enter your name:")
-print("Lets see how you do!")
+print("Ok " + name + " , lets see how you do!")
 score = 0
 
 answer = input("1. How many infinity stones are there?")
