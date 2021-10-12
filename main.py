@@ -12,20 +12,14 @@ else:
     print("That's incorrect!")
 
 answer = input("2. Who did Madame Hydra order Yelena to kill in the Black Widow movie?")
-if answer == "Hawkeye":
-    print("That's right!")
-elif answer == "Clint":
+if answer == "Hawkeye" or answer == "Clint":
     print("That's right!")
     score += 1
 else:
     print("That is incorrect!")
 
 answer = input("3. Who is killed by Loki in the Avengers?")
-if answer == "Agent Coulson":
-    print("Yes, that's correct!")
-elif answer == "Phil":
-    print("Yes, that's correct!")
-elif answer == "Phil Coulson":
+if answer == "Agent Coulson" or answer == "Phil" or answer == "Phil Coulson":
     print("Yes, that's correct!")
     score += 1
 else:
@@ -67,9 +61,8 @@ else:
     print("Not quite the answer..")
 
 answer = input("9. What is the name of the ice-cream parlour that Scott Lang used to work at?")
-if answer == "Baskin-Robbins shop":
+if answer == "Baskin Robbins shop":
     print("Yes! Almost there..")
-elif answer == "Baskin Robbins shop":
     score += 1
 else:
     print("Not right..")
